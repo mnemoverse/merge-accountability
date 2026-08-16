@@ -1,6 +1,6 @@
 # Merge Accountability
 
-Companion repository for **"Merge Without Measure: Entity Resolution and Deduplication in Six Agent-Memory Systems"** (Izgorodin, 2026; arXiv submission pending).
+Companion repository for **"Merge Without Measure: Entity Resolution and Deduplication in Six Agent-Memory Systems"** (Izgorodin and Timoshina, 2026; arXiv submission pending).
 
 The paper is a dated source review: nothing was executed, and every claim about a named system is a reading of pinned commits, vendor documentation, and maintainer threads. This repository is where those readings are checkable.
 
@@ -10,8 +10,8 @@ The paper is a dated source review: nothing was executed, and every claim about 
 |---|---|
 | `systems.csv` | The six reviewed systems: repository, version, commit hash, read date |
 | `mac.csv` | The Merge Accountability Criteria (MAC) rubric applied to the six systems, to Mnemoverse (the author's own system), and to Wikidata as a reference point — machine-readable mirror of the paper's Table 3 |
-| `excerpts/` | Code excerpts with file and line references backing each per-system finding *(TODO: populate before submission)* |
-| `reading-log.md` | Dated log of what was read, when, and by whom *(TODO: populate before submission)* |
+| `excerpts/` | Code excerpts with file and line references backing each per-system finding, extracted from the pinned commits; dead-code claims carry the caller-search command and its full output |
+| `reading-log.md` | Dated log of what was read, when, and by whom |
 | `CORRECTIONS.md` | Corrections accepted as dated entries — see below |
 
 ## The Merge Accountability Criteria (MAC)
