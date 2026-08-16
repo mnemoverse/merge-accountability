@@ -1,0 +1,19 @@
+{
+  "run_date_utc": "2026-08-16T12:27:30.327176+00:00",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "n_questions": 78,
+  "grader": "LongMemEval get_anscheck_prompt, knowledge-update branch, verbatim",
+  "conditions": {
+    "invalidated": {
+      "n": 78,
+      "correct": 63,
+      "accuracy": 0.8077
+    },
+    "store_both": {
+      "n": 78,
+      "correct": 61,
+      "accuracy": 0.7821
+    }
+  }
+}
