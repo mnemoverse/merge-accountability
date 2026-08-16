@@ -1,0 +1,7 @@
+system,repo,version,commit,read_date,notes
+Mem0 OSS,https://github.com/mem0ai/mem0,2.0.15,50bdaae,2026-08-01,
+Graphiti,https://github.com/getzep/graphiti,0.29.3,7cf0cab,2026-08-01,
+Letta,https://github.com/letta-ai/letta,0.16.8,ff19ffe,2026-08-01,
+GraphRAG,https://github.com/microsoft/graphrag,v3.1.1,14a00ad,2026-07-18,
+Cognee,https://github.com/topoteretes/cognee,v1.4.1,38eece5,2026-08-01,
+LangMem,https://github.com/langchain-ai/langmem,0.0.30,56d8593,,last src/ commit 2025-07-28; read date not stated in source; companion repo reading log to supply

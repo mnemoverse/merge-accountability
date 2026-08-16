@@ -1,0 +1,9 @@
+system,mac1,mac2,mac3,threshold_constant,nearest_artifact,notes
+Mem0 OSS 2.0.15,no,no,constant,cosine 0.95,"linked_memory_ids: a link, no loser, no score",never merges memories (MAC-2 vacuous at the memory level); entity links at 0.95 leave no record
+Graphiti 0.29.3,no,no,constant,Jaccard 0.9; floor 0.6,"uuid_map computed, then discarded",IS_DUPLICATE_OF never created; losing node never persisted
+GraphRAG v3.1.1,no,no,constant,uppercased string equality,,entity resolution step removed (Discussion #778)
+Cognee v1.4.1,no,no,constant,uuid5 equality; difflib 0.8 opt-in,,identity = uuid5(lowercased name); blind Cypher SET
+Letta 0.16.8,n/a,n/a,none,,BlockHistory + undo/redo; no production writer,no identity decision; undo machinery covers overwrites not merges; no production writer at pinned commit
+LangMem 0.0.30,n/a,n/a,none,,,no entity model; put() is a blind overwrite
+Mnemoverse,no,no,none published,,documented consolidate step only,vendor self-assessment from documentation alone
+Wikidata,no,yes,n/a (editorial; no threshold),,revision history; redirect; documented unmerge,reference point; Help:Merge retrieved 2026-08-16
