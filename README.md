@@ -4,6 +4,8 @@ Companion repository for **"Merge Without Measure: Entity Resolution and Dedupli
 
 The paper is a dated source review: nothing was executed, and every claim about a named system is a reading of pinned commits, vendor documentation, and maintainer threads. This repository is where those readings are checkable.
 
+An earlier, informal version of the review is public: [Agent Memory Deduplication: The Missing Error Rate](https://mnemoverse.com/docs/library/agent-memory-deduplication) (2026-08-03). The paper restructures that material, adds a consolidated method section, and names the rubric.
+
 ## Contents
 
 | File | What it is |
