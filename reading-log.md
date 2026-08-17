@@ -22,5 +22,15 @@ Findings were sent to the maintainers of all six systems on 2026-08-16, before s
 | Graphiti / Zep | <https://github.com/getzep/graphiti/issues/1771> | 2026-08-16 | awaiting |
 | Letta | <https://github.com/letta-ai/letta/issues/3431> | 2026-08-16 | awaiting |
 | GraphRAG | <https://github.com/microsoft/graphrag/discussions/2501> | 2026-08-16 | awaiting |
-| Cognee | <https://github.com/topoteretes/cognee/issues/4532> | 2026-08-16 | awaiting |
+| Cognee | <https://github.com/topoteretes/cognee/issues/4532> | 2026-08-16 | acknowledged 2026-08-16 (see below) |
 | LangMem | <https://github.com/langchain-ai/langmem/issues/180> | 2026-08-16 | awaiting |
+
+### Responses, verbatim
+
+**Cognee** — 2026-08-16T17:30:29Z, `Vasilije1990` (<https://github.com/topoteretes/cognee/issues/4532#issuecomment-5308714025>):
+
+> @lxobr can we please review this
+
+Classification: acknowledgment; internal review requested. No factual correction yet.
+
+**Mem0** — note, 2026-08-17: the issue's metadata shows a comment count of 1, but the comments API returns zero visible comments; a comment appears to have been posted and then deleted or hidden. Recorded as: no visible response.
