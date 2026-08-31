@@ -27,6 +27,39 @@ Findings were sent to the maintainers of all six systems on 2026-08-16, before s
 | Cognee | <https://github.com/topoteretes/cognee/issues/4532> | 2026-08-16 | acknowledged 2026-08-16 (see below) |
 | LangMem | <https://github.com/langchain-ai/langmem/issues/180> | 2026-08-16 | awaiting |
 
+## Outcome at the close of the comment window
+
+The window announced in all six outreach threads closed on **2026-08-30**. State of every thread, checked **2026-08-31**:
+
+| System | Thread | State on 2026-08-31 | Outcome |
+|---|---|---|---|
+| Mem0 | `mem0#7002` | open, 15 days without a visible comment | no response; see the counter anomaly below |
+| Graphiti / Zep | `graphiti#1771` | open, zero comments | no response |
+| Letta | `letta#3431` | closed as not planned, locked 2026-08-23 | substantive objection, unspecified; follow-up in `letta-code#4040` open with zero comments since 2026-08-25 |
+| GraphRAG | `graphrag/discussions/2501` | open, zero comments | no response |
+| Cognee | `cognee#4532` | open, one comment, unchanged since 2026-08-16 | acknowledgment only; the requested internal review has not appeared |
+| LangMem | `langmem#180` | open, zero comments | no response |
+
+**One of six responded with an objection, one acknowledged, four were silent.** No factual correction to any reading was received from any maintainer.
+
+### The Mem0 counter anomaly persists
+
+Recorded on 2026-08-17 and re-checked on 2026-08-31, unchanged in fifteen days:
+
+```
+GET /repos/mem0ai/mem0/issues/7002          -> comments: 1
+GET /repos/mem0ai/mem0/issues/7002/comments -> []
+```
+
+The issue metadata reports one comment; the comments endpoint returns none. A comment appears to have been posted and then deleted or hidden. **What it said is unknown to us and this log makes no claim about its content.** It is recorded because the discrepancy is checkable by anyone and because a paper that says silence should say exactly what kind of silence it saw.
+
+### What this changes in the paper
+
+Nothing in the readings. No correction was offered, so v1 carries the readings as sent.
+
+Per the terms stated in every thread, responses arriving after 2026-08-30 go into v2 and are recorded here as dated entries. The threads are left open on purpose: none of them was closed by us, and a late correction is still wanted.
+
+
 ### Responses, verbatim
 
 **Cognee** — 2026-08-16T17:30:29Z, `Vasilije1990` (<https://github.com/topoteretes/cognee/issues/4532#issuecomment-5308714025>):
