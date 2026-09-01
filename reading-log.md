@@ -18,14 +18,16 @@ Dated log of what was read, when, and by whom. Per-finding evidence with file an
 
 Findings were sent to the maintainers of all six systems on 2026-08-16, before submission, with a comment window closing 2026-08-30. Responses are recorded verbatim below as they arrive; silence is recorded as silence.
 
+**Window closed 2026-08-30; final tally (checked 2026-09-01).** Substantive response: Letta (2026-08-23; incorporated, see the paper's Letta section and the follow-up in letta-code#4040, unanswered as of 2026-09-01). Acknowledgment without follow-up: Cognee (2026-08-16, internal review requested, none posted). No visible response: Mem0 (a comment was posted and removed on 2026-08-16), Graphiti/Zep, GraphRAG, LangMem. Later responses will be recorded here and reflected in v2 per the letters' commitment.
+
 | System | Posted at | Sent | Response |
 |---|---|---|---|
-| Mem0 | <https://github.com/mem0ai/mem0/issues/7002> | 2026-08-16 | awaiting |
-| Graphiti / Zep | <https://github.com/getzep/graphiti/issues/1771> | 2026-08-16 | awaiting |
+| Mem0 | <https://github.com/mem0ai/mem0/issues/7002> | 2026-08-16 | window closed: no visible response (comment posted and removed 2026-08-16) |
+| Graphiti / Zep | <https://github.com/getzep/graphiti/issues/1771> | 2026-08-16 | window closed: silence |
 | Letta | <https://github.com/letta-ai/letta/issues/3431> | 2026-08-16 | responded 2026-08-23; issue closed as not planned and locked (see below) |
-| GraphRAG | <https://github.com/microsoft/graphrag/discussions/2501> | 2026-08-16 | awaiting |
-| Cognee | <https://github.com/topoteretes/cognee/issues/4532> | 2026-08-16 | acknowledged 2026-08-16 (see below) |
-| LangMem | <https://github.com/langchain-ai/langmem/issues/180> | 2026-08-16 | awaiting |
+| GraphRAG | <https://github.com/microsoft/graphrag/discussions/2501> | 2026-08-16 | window closed: silence |
+| Cognee | <https://github.com/topoteretes/cognee/issues/4532> | 2026-08-16 | window closed: acknowledged 2026-08-16, no follow-up |
+| LangMem | <https://github.com/langchain-ai/langmem/issues/180> | 2026-08-16 | window closed: silence |
 
 ### Responses, verbatim
 
