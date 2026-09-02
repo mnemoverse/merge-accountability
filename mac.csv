@@ -1,9 +1,10 @@
-system,mac1,mac2,mac3,threshold_constant,nearest_artifact,notes
-Mem0 OSS 2.0.15,no,no,constant,cosine 0.95,"linked_memory_ids: a link, no loser, no score",never merges memories (MAC-2 vacuous at the memory level); entity links at 0.95 leave no record
-Graphiti 0.29.3,no,no,constant,Jaccard 0.9; floor 0.6,"uuid_map computed, then discarded",IS_DUPLICATE_OF never created; losing node never persisted
-GraphRAG v3.1.1,no,no,constant,uppercased string equality,,entity resolution step removed (Discussion #778)
-Cognee v1.4.1,no,no,constant,uuid5 equality; difflib 0.8 opt-in,,identity = uuid5(lowercased name); blind Cypher SET
-Letta 0.16.8,n/a,n/a,none,,BlockHistory + undo/redo; no production writer,no identity decision; undo machinery covers overwrites not merges; no production writer at pinned commit
-LangMem 0.0.30,n/a,n/a,none,,,no entity model; put() is a blind overwrite
-Mnemoverse,no,no,none published,,documented consolidate step only,vendor self-assessment from documentation alone
-Wikidata,no,yes,n/a (editorial; no threshold),,revision history; redirect; documented unmerge,reference point; Help:Merge retrieved 2026-08-16
+system,mac1,mac2,mac3,nearest_artifact,notes
+Mem0 OSS 2.0.15,no,no,constant (cosine 0.95),"linked_memory_ids: a link, no loser, no score","never merges memories (MAC-2 vacuous at the memory level); the entity gate at 0.95 records no score, no threshold, no loser"
+Graphiti 0.29.3,no,no,constant (Jaccard 0.9; floor 0.6); LLM tier: n/a,"uuid_map computed, then discarded","no IS_DUPLICATE_OF edge created at the pin; releases 0.12.2-0.21.0rc5 constructed the edge (PR #599, 2025-06-17, to PR #927, 2025-09-24) but never recorded the actual merge: through 0.17.3 only additional-duplicate pairs between two surviving nodes; from 0.17.4 the fused pair's write silently no-ops (MATCH on a never-persisted source); no score, no loser, no reader, no undo; losing node never persisted"
+GraphRAG v3.1.1,no,no,constant (uppercased string equality),none,entity resolution step removed (Discussion #778)
+Cognee v1.4.1,no,no,constant (uuid5 equality; difflib 0.8 opt-in),none,identity = uuid5(lowercased name); blind Cypher SET
+Letta 0.16.8 + letta-code a0798e0,no,partial,n/a (LLM decision; no threshold),"legacy: BlockHistory + undo/redo, no production writer; letta-code: every state in git, no merge record, no callable revert","partial = every prior state recoverable and no merge identified; the reflection subagent's merges are LLM-mediated and unrecorded"
+LangMem 0.0.30,no,no,n/a (LLM decision; no threshold),"manager: LLM over top-5; in-place updates shipped on, deletes opt-in; nothing recorded",put() is a blind overwrite; the shipped store manager has an LLM decide insert / in-place update / opt-in delete
+Mnemoverse,no,no,none published,documented consolidate step only,self-assessment from public documentation alone; consolidation gated off on the hosted service
+Wikidata,no,yes,n/a (editorial; no threshold),revision history; redirect; documented unmerge,reference point; Help:Merge retrieved 2026-08-16
+1990 Census,yes: 0.002,n/a (linkage; no destructive merge),yes: cutoffs from stipulated rates,clerical review sized by the budget,"second reference point, from winkler1991: false-match rate 0.002 among automatic matches on the St. Louis file; cutoffs set by clerical review against stipulated rates (their Section 4.6)"

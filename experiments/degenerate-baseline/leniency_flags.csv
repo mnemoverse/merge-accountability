@@ -1,0 +1,157 @@
+condition,question_id,class,abstention,graded_correct,superseded_value,superseded_in_response,superseded_required_by_gold_or_question,leniency_candidate,updated_value,updated_in_response_not_required,reverse_leniency_candidate,adjudication,reader_answer
+invalidated,01493427,current-value,0,1,17 postcards,0,0,0,25 postcards,0,0,,You have added 25 new postcards to your collection since you started collecting again.
+invalidated,031748ae,lookback,0,0,4 engineers,0,1,0,5 engineers,0,0,,"When you just started your new role as Senior Software Engineer, you led a team of five engineers. You still lead the same number of engineers now."
+invalidated,031748ae_abs,lookback,1,0,4 engineers,0,0,0,5 engineers,1,0,,"When you started your new role as a Senior Software Engineer, you led a team of five engineers."
+invalidated,06db6396,current-value,0,1,4 projects,0,0,0,5 projects,0,0,,You have completed 5 projects since starting painting classes.
+invalidated,07741c44,lookback,0,0,under my bed,0,1,0,shoe rack in closet,1,0,,You initially mentioned that your old sneakers are taking up space and you plan to store them in a shoe rack in your closet.
+invalidated,07741c45,current-value,0,1,under my bed,0,0,0,shoe rack in closet,0,0,,You currently keep your old sneakers in a shoe rack in your closet.
+invalidated,08e075c7,current-value,0,1,6 months,0,0,0,9 months,0,0,,You have been using your Fitbit Charge 3 for 9 months.
+invalidated,0977f2af,lookback,0,0,Instant Pot,0,1,0,Air Fryer,0,0,,The conversation history does not mention any kitchen gadget you invested in before getting the Air Fryer.
+invalidated,0ddfec37,lookback,0,0,15 baseballs (first 3 mo),0,1,0,20 baseballs (now),1,0,,You mentioned that you added 20 autographed baseballs to your collection in the past few months.
+invalidated,0ddfec37_abs,lookback,1,1,15 baseballs,0,0,0,20 baseballs,1,1,ambiguous-reverse: cites the CURRENT value (20) beside a correct abstention; not 'previous information',"Based on the conversation history, you mentioned adding 20 autographed baseballs to your collection in the past few months, but there is no mention of autographed footballs."
+invalidated,0e4e4c46,current-value,0,1,124 points,0,0,0,132 points,0,0,,Your current highest score in Ticket to Ride is 132 points.
+invalidated,0f05491a,current-value,0,1,125 stars,0,0,0,120 stars,0,0,,"To reach the Gold level on your Starbucks Rewards app, you need to earn a total of 120 stars within a 12-month period."
+invalidated,10e09553,lookback,0,0,7 bass (7/10 trip),1,1,0,9 bass (7/22 trip),1,0,,You mentioned catching 9 largemouth bass with Alex during the fishing trip to Lake Michigan on 7/22. There was no mention of an earlier trip with a specific number of largemouth bass caught before that date in the conversation history provided.
+invalidated,184da446,current-value,0,1,page 200,0,0,0,page 220,0,0,,"You have read 220 pages of ""A Short History of Nearly Everything"" so far."
+invalidated,18bc8abd,current-value,0,1,Sweet Baby Ray's,0,0,0,Kansas City Masterpiece,0,0,,You are currently obsessed with Kansas City Masterpiece BBQ sauce.
+invalidated,1cea1afa,current-value,0,1,500 followers,0,0,0,600 followers,0,0,,"As of May 25, 2023, you mentioned having 600 followers on Instagram."
+invalidated,2133c1b5,current-value,0,1,1 month,0,0,0,3 months,0,0,,You have been living in your current apartment in Harajuku for 3 months.
+invalidated,2133c1b5_abs,current-value,1,1,1 month,0,0,0,3 months,1,0,,"Based on the conversation history, you mentioned that you have been living in Harajuku for 3 months. There is no information about living in Shinjuku."
+invalidated,22d2cb42,current-value,0,1,(none: still planning),0,0,0,music shop on Main St,0,0,,You got your guitar serviced at a music shop on Main St.
+invalidated,2698e78f,current-value,0,1,every two weeks,0,0,0,every week,0,0,,"You see your therapist, Dr. Smith, every week."
+invalidated,2698e78f_abs,current-value,1,1,every two weeks,0,0,0,every week,1,0,,"Based on the conversation history, you see Dr. Smith every week. There is no mention of Dr. Johnson in the provided conversation."
+invalidated,26bdc477,current-value,0,1,3 trips,0,0,0,5 trips,0,0,,You have taken your Canon EOS 80D camera on five trips.
+invalidated,3ba21379,current-value,0,1,Ford Mustang Shelby GT350R,0,0,0,Ford F-150,0,0,,You are currently working on a Ford F-150 pickup truck model.
+invalidated,41698283,current-value,0,1,50mm prime lens,0,0,0,70-200mm zoom lens,0,0,,You most recently purchased a 70-200mm zoom lens.
+invalidated,42ec0761,current-value,0,1,no / misplaced it,0,0,0,"yes, has a spare",0,0,,"Yes, you mentioned that you have a spare screwdriver that you picked up when you organized your computer desk a while back, so you're all set for opening up your laptop."
+invalidated,45dc21b6,current-value,0,1,2 recipes,0,0,0,3 recipes,0,0,,You have tried out 3 of Emma's recipes.
+invalidated,4b24c848,current-value,0,1,3 tops,0,0,0,5 tops,0,0,,You have already bought five tops from H&M so far.
+invalidated,4d6b87c8,current-value,0,1,20 titles,0,0,0,25 titles,0,0,,You mentioned that you have 25 titles on your to-watch list.
+invalidated,50635ada,lookback,0,0,Premier Silver,0,1,0,Premier Gold,1,0,,Your previous frequent flyer status on United Airlines was Premier Gold.
+invalidated,5831f84d,current-value,0,1,10 videos,0,0,0,15 videos,0,0,,You have watched 15 Crash Course videos in the past few weeks.
+invalidated,59524333,current-value,0,1,7:00 pm,0,0,0,6:00 pm,0,0,,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays."
+invalidated,5a4f22c0,current-value,0,1,(none: company not stated),0,0,0,TechCorp,0,0,,Rachel is currently working at TechCorp.
+invalidated,5c40ec5b,current-value,0,1,"(met once, no count)",0,0,0,twice,0,0,,You have met up with Alex from Germany twice before.
+invalidated,603deb26,current-value,0,1,5 times,0,0,0,10 times,0,0,,You have tried making a Negroni at home 10 times since your friend Emma showed you how to make it.
+invalidated,6071bd76,lookback,0,1,6 oz per tbsp,0,0,0,5 oz per tbsp,0,0,,"Based on your previous conversation, you mentioned that your French press ratio is 1 tablespoon of coffee for every 5 ounces of water. There is no indication that you switched to more or less water per tablespoon of coffee."
+invalidated,618f13b2,current-value,0,1,4 times,0,0,0,6 times,0,0,,You have worn your new black Converse Chuck Taylor All Star sneakers six times.
+invalidated,69fee5aa,current-value,0,0,37 coins,0,0,0,38 coins,0,0,,"Based on the conversation, you have at least one pre-1920 American coin in your collection, which is a 1915-S Barber quarter."
+invalidated,6a1eabeb,current-value,0,1,27:12,0,0,0,25:50,0,0,,Your personal best time in the charity 5K run was 25:50.
+invalidated,6a27ffc2,current-value,0,1,20 videos,0,0,0,30 videos,0,0,,You have completed 30 videos of Corey Schafer's Python programming series.
+invalidated,6aeb4375,current-value,0,1,3 restaurants,0,0,0,4 restaurants,0,0,,You have tried four different Korean restaurants in your city.
+invalidated,6aeb4375_abs,current-value,1,1,3 restaurants,0,0,0,4 restaurants,1,0,,"Based on the conversation history provided, there is no mention of how many Italian restaurants you have tried in your city. You mentioned trying four different Korean restaurants, but there is no information about Italian restaurants."
+invalidated,71315a70,current-value,0,1,5-6 hours,0,0,0,10-12 hours,0,0,,You have spent 10-12 hours on your abstract ocean sculpture.
+invalidated,72e3ee87,current-value,0,1,episode 10,0,0,0,50 episodes,0,0,,You have completed 50 episodes of the Science series on Crash Course.
+invalidated,7401057b,current-value,0,1,one free night,0,0,0,two free nights,0,0,,You mentioned earlier that you have accumulated enough points for two free night's stays at any Hilton property.
+invalidated,7a87bd0c,current-value,0,1,3 weeks,0,0,0,4 weeks,0,0,,You have been sticking to your daily tidying routine for 4 weeks.
+invalidated,7e974930,current-value,0,1,$350,0,0,0,$420,0,0,,You earned $420 at the Downtown Farmers Market on your most recent visit.
+invalidated,830ce83f,current-value,0,1,Chicago,0,0,0,the suburbs,0,0,,Rachel moved back to the suburbs.
+invalidated,852ce960,current-value,0,1,"$350,000",0,0,0,"$400,000",0,0,,"You were pre-approved for $400,000 from Wells Fargo."
+invalidated,89941a93,current-value,0,1,3 bikes,0,0,0,4 bikes,0,0,,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike."
+invalidated,89941a94,lookback,0,1,road bike (3 bikes),1,1,0,gravel bike (4 bikes),0,0,not-load-bearing:value-required-by-gold-or-question,"Yes, before purchasing the gravel bike, you had a road bike, a mountain bike, a commuter bike, and a hybrid bike."
+invalidated,8fb83627,current-value,0,1,3 issues,0,0,0,5 issues,0,0,,You have finished reading five issues of National Geographic.
+invalidated,945e3d21,current-value,0,1,twice a week,0,0,0,three times a week,0,0,,"You attend yoga classes three times a week, which helps you clear your head and stay focused."
+invalidated,9bbe84a2,lookback,0,0,level 100,0,1,0,level 150,1,0,,Your previous goal for your Apex Legends level was to reach level 150.
+invalidated,9ea5eabc,current-value,0,1,Hawaii,0,0,0,Paris,0,0,,You went to Paris on your most recent family trip.
+invalidated,a1eacc2a,current-value,0,1,4 stories,0,0,0,7 stories,0,0,,You have completed 7 short stories since you started writing regularly.
+invalidated,a2f3aa27,current-value,0,0,1250 followers,0,0,0,1300 followers,0,0,,"Based on your conversation from May 28, you mentioned that you were close to 1300 followers on Instagram. However, you did not provide an updated follower count after that date."
+invalidated,affe2881,current-value,0,1,27 species,0,0,0,32 species,0,0,,You have seen 32 different species of birds in your local park.
+invalidated,b01defab,current-value,0,1,not finished,0,0,0,finished (yes),0,0,,"Yes, you finished reading ""The Nightingale"" by Kristin Hannah and found it to be a powerful and emotional read."
+invalidated,b6019101,current-value,0,1,4 MCU films,0,0,0,5 MCU films,0,0,,You watched 5 MCU films in the last 3 months.
+invalidated,ba61f0b9,current-value,0,1,5 women,0,0,0,6 women,0,0,,Your former manager Rachel's team has 6 women out of 10 people.
+invalidated,c4ea545c,lookback,0,0,3x/week (Tue/Thu/Sat),0,0,0,4x/week,1,0,,"Based on the conversation history, you mentioned that you have been consistent with your gym routine, going four times a week. There is no information provided about your previous gym frequency, so I can't determine if you go to the gym more frequently now than you did before."
+invalidated,c6853660,lookback,0,1,one cup,0,1,0,two cups,0,0,,You most recently increased the limit on the number of cups of coffee in the morning to two cups.
+invalidated,c7dc5443,current-value,0,1,3-2 record,0,0,0,5-2 record,0,0,,Your current record in the recreational volleyball league is 5-2.
+invalidated,cc5ded98,current-value,0,1,about one hour,0,0,0,about two hours,0,0,,You dedicate about two hours each day to coding exercises.
+invalidated,ce6d2d27,current-value,0,1,Thursday,0,0,0,Friday,0,0,,You take a cocktail-making class on Fridays.
+invalidated,cf22b7bf,current-value,0,1,5 pounds,0,0,0,10 pounds,0,0,,You have lost 10 pounds since you started going to the gym consistently 3 months ago.
+invalidated,d7c942c3,current-value,0,1,no (paper list),0,0,0,yes (same app),0,0,,"Yes, your mom is using the same grocery list app as you, allowing you both to easily share lists and keep track of what you need."
+invalidated,dad224aa,current-value,0,1,8:30 am,0,0,0,7:30 am,0,0,,You like to wake up at 7:30 am on Saturdays.
+invalidated,db467c8c,current-value,0,1,six months,0,0,0,nine months,0,0,,Your parents have been staying with you in the US for nine months.
+invalidated,dfde3500,lookback,0,0,Wednesday (Juan),0,1,0,Thursday (Maria),1,0,,"Based on the conversation history, there is no mention of a language exchange tutor named Juan. You mentioned having a language exchange session with your tutor Maria, which was scheduled for Thursday."
+invalidated,e493bb7c,current-value,0,1,living room,0,0,0,bedroom,0,0,,"The painting ""Ethereal Dreams"" by Emma Taylor is currently hanging above the user's bed in their bedroom."
+invalidated,e61a7584,current-value,0,1,6 months,0,0,0,9 months,0,0,,"You've had your cat, Luna, for about 9 months."
+invalidated,e66b632c,lookback,0,0,27:45,0,1,0,26:30,1,0,,Your previous personal best time for the charity 5K run was 26 minutes and 30 seconds.
+invalidated,eace081b,current-value,0,1,Kauai,0,0,0,Oahu,0,0,,You are planning to stay on Oahu for your birthday trip to Hawaii.
+invalidated,ed4ddc30,current-value,0,1,30 dozen,0,0,0,20 dozen,0,0,,You currently have 20 dozen eggs stocked up in your refrigerator.
+invalidated,f685340e,lookback,0,0,every week,0,1,0,every other week,0,0,,"Previously, you played tennis with your friends at the local park every other week. There is no information in the conversation history indicating any change in the frequency of your tennis games, so it can be assumed that you still play every other week."
+invalidated,f685340e_abs,lookback,1,0,every week,0,0,0,every other week,1,0,,"Based on the conversation history, you play tennis with your friends at the local park every other week."
+invalidated,f9e8c073,current-value,0,1,3 sessions,0,0,0,5 sessions,0,0,,You attended five sessions of the bereavement support group.
+store_both,01493427,current-value,0,1,17 postcards,0,0,0,25 postcards,0,0,,You have added a total of 25 new postcards to your collection since you started collecting again.
+store_both,031748ae,lookback,0,1,4 engineers,1,1,0,5 engineers,0,0,not-load-bearing:value-required-by-gold-or-question,"When you just started your new role as Senior Software Engineer, you led a team of 4 engineers. Now, you lead a team of 5 engineers."
+store_both,031748ae_abs,lookback,1,0,4 engineers,1,0,0,5 engineers,0,0,,"When you started your new role as Senior Software Engineer, you led a team of 4 engineers."
+store_both,06db6396,current-value,0,1,4 projects,0,0,0,5 projects,0,0,,You have completed 5 projects since starting painting classes.
+store_both,07741c44,lookback,0,1,under my bed,0,1,0,shoe rack in closet,0,0,,You initially keep your old sneakers under your bed for storage.
+store_both,07741c45,current-value,0,0,under my bed,0,0,0,shoe rack in closet,0,0,,You currently keep your old sneakers under your bed for storage.
+store_both,08e075c7,current-value,0,1,6 months,0,0,0,9 months,0,0,,You have been using your Fitbit Charge 3 for 9 months.
+store_both,0977f2af,lookback,0,1,Instant Pot,1,1,0,Air Fryer,0,0,not-load-bearing:value-required-by-gold-or-question,"Before getting the Air Fryer, you invested in an Instant Pot."
+store_both,0ddfec37,lookback,0,1,15 baseballs (first 3 mo),1,1,0,20 baseballs (now),0,0,not-load-bearing:value-required-by-gold-or-question,You added 15 autographed baseballs to your collection in the first three months.
+store_both,0ddfec37_abs,lookback,1,1,15 baseballs,1,0,1,20 baseballs,0,0,"ambiguous: cites 15, which is the period-correct value for 'first three months', not stale information","Based on the conversation history, you have not mentioned adding any autographed footballs to your collection in the first three months. You mentioned adding 15 autographed baseballs during that time."
+store_both,0e4e4c46,current-value,0,1,124 points,0,0,0,132 points,0,0,,Your current highest score in Ticket to Ride is 132 points.
+store_both,0f05491a,current-value,0,0,125 stars,1,0,0,120 stars,0,0,,"To reach the Gold level on the Starbucks Rewards app, you need to earn a total of **125 stars** within a 12-month period."
+store_both,10e09553,lookback,0,1,7 bass (7/10 trip),1,1,0,9 bass (7/22 trip),0,0,not-load-bearing:value-required-by-gold-or-question,You caught 7 largemouth bass with Alex on your fishing trip to Lake Michigan on 7/10.
+store_both,184da446,current-value,0,1,page 200,0,0,0,page 220,0,0,,"You have read 220 pages of ""A Short History of Nearly Everything"" so far."
+store_both,18bc8abd,current-value,0,1,Sweet Baby Ray's,0,0,0,Kansas City Masterpiece,0,0,,You are currently obsessed with Kansas City Masterpiece BBQ sauce.
+store_both,1cea1afa,current-value,0,1,500 followers,0,0,0,600 followers,0,0,,"As of May 25, 2023, you mentioned having 600 Instagram followers."
+store_both,2133c1b5,current-value,0,1,1 month,0,0,0,3 months,0,0,,You have been living in your current apartment in Harajuku for 3 months.
+store_both,2133c1b5_abs,current-value,1,1,1 month,1,0,1,3 months,0,0,load-bearing: carries the stale '1 month' Harajuku duration (superseded by '3 months') alongside a correct abstention about Shinjuku,"Based on the conversation history, you mentioned living in a studio apartment in Harajuku for a month as of April 11, 2023. However, there is no information in the provided conversation history about living in an apartment in Shinjuku."
+store_both,22d2cb42,current-value,0,1,(none: still planning),0,0,0,music shop on Main St,0,0,,"You got your guitar serviced at a music shop on Main St, which you mentioned has a good reputation for guitar maintenance."
+store_both,2698e78f,current-value,0,0,every two weeks,1,0,0,every week,0,0,,"You see your therapist, Dr. Smith, every two weeks."
+store_both,2698e78f_abs,current-value,1,1,every two weeks,0,0,0,every week,1,0,,"Based on the conversation history, there is no mention of Dr. Johnson. However, you mentioned seeing Dr. Smith every week."
+store_both,26bdc477,current-value,0,1,3 trips,0,0,0,5 trips,0,0,,You have taken your Canon EOS 80D camera on five trips.
+store_both,3ba21379,current-value,0,1,Ford Mustang Shelby GT350R,0,0,0,Ford F-150,0,0,,You are currently working on a Ford F-150 pickup truck model.
+store_both,41698283,current-value,0,0,50mm prime lens,1,0,0,70-200mm zoom lens,0,0,,You most recently purchased a 50mm prime lens.
+store_both,42ec0761,current-value,0,1,no / misplaced it,0,0,0,"yes, has a spare",0,0,,"Yes, you mentioned that you have a spare screwdriver that you picked up when you organized your computer desk a while back, so you're all set for opening up your laptop."
+store_both,45dc21b6,current-value,0,1,2 recipes,0,0,0,3 recipes,0,0,,You have tried out three of Emma's recipes.
+store_both,4b24c848,current-value,0,1,3 tops,0,0,0,5 tops,0,0,,You have bought five tops from H&M so far.
+store_both,4d6b87c8,current-value,0,1,20 titles,0,0,0,25 titles,0,0,,You mentioned having 25 titles on your to-watch list.
+store_both,50635ada,lookback,0,1,Premier Silver,1,1,0,Premier Gold,1,1,ambiguous-reverse: adds the CURRENT status (Premier Gold) beside the required previous one; not 'previous information',Your previous frequent flyer status on United Airlines was Premier Silver before you achieved Premier Gold status.
+store_both,5831f84d,current-value,0,1,10 videos,0,0,0,15 videos,0,0,,You have watched 15 Crash Course videos in the past few weeks.
+store_both,59524333,current-value,0,0,7:00 pm,1,0,0,6:00 pm,0,0,,"You usually go to the gym at 7:00 pm on Mondays, Wednesdays, and Fridays."
+store_both,5a4f22c0,current-value,0,1,(none: company not stated),0,0,0,TechCorp,0,0,,Rachel is currently working at TechCorp.
+store_both,5c40ec5b,current-value,0,1,"(met once, no count)",0,0,0,twice,0,0,,You have met up with Alex from Germany twice already.
+store_both,603deb26,current-value,0,1,5 times,0,0,0,10 times,0,0,,You have tried making a Negroni at home 10 times since your friend Emma showed you how to make it.
+store_both,6071bd76,lookback,0,0,6 oz per tbsp,1,0,0,5 oz per tbsp,0,0,,"You switched to using more water per tablespoon of coffee. Initially, you mentioned using a ratio of 1 tablespoon of coffee for every 5 ounces of water, but later you found that 1 tablespoon of coffee for every 6 ounces of water was the perfect ratio for you."
+store_both,618f13b2,current-value,0,1,4 times,0,0,0,6 times,0,0,,You have worn your new black Converse Chuck Taylor All Star sneakers six times.
+store_both,69fee5aa,current-value,0,0,37 coins,1,0,0,38 coins,0,0,,You have a total of 37 pre-1920 American coins in your collection.
+store_both,6a1eabeb,current-value,0,1,27:12,0,0,0,25:50,0,0,,Your personal best time in the charity 5K run was 25:50.
+store_both,6a27ffc2,current-value,0,1,20 videos,0,0,0,30 videos,0,0,,You have completed 30 videos of Corey Schafer's Python programming series.
+store_both,6aeb4375,current-value,0,1,3 restaurants,0,0,0,4 restaurants,0,0,,You have tried four different Korean restaurants in your city.
+store_both,6aeb4375_abs,current-value,1,1,3 restaurants,0,0,0,4 restaurants,0,0,,"Based on the conversation history provided, there is no mention of you trying any Italian restaurants in your city."
+store_both,71315a70,current-value,0,1,5-6 hours,0,0,0,10-12 hours,0,0,,You mentioned that you have spent 10-12 hours on your abstract ocean sculpture.
+store_both,72e3ee87,current-value,0,1,episode 10,0,0,0,50 episodes,0,0,,You have completed 50 episodes of the Science series on Crash Course.
+store_both,7401057b,current-value,0,0,one free night,1,0,0,two free nights,0,0,,"You mentioned that you've accumulated enough points for a single free night's stay at any Hilton property. Since the Hilton Lake Las Vegas Resort is a Category 5 hotel, you are good to redeem your points for a weekend getaway there."
+store_both,7a87bd0c,current-value,0,1,3 weeks,0,0,0,4 weeks,0,0,,You have been sticking to your daily tidying routine for 4 weeks.
+store_both,7e974930,current-value,0,1,$350,0,0,0,$420,0,0,,You earned $420 at the Downtown Farmers Market on your most recent visit.
+store_both,830ce83f,current-value,0,0,Chicago,1,0,0,the suburbs,0,0,,Rachel moved to Chicago.
+store_both,852ce960,current-value,0,0,"$350,000",1,0,0,"$400,000",0,0,,"You were pre-approved for $350,000 from Wells Fargo."
+store_both,89941a93,current-value,0,1,3 bikes,0,0,0,4 bikes,0,0,,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike."
+store_both,89941a94,lookback,0,1,road bike (3 bikes),1,1,0,gravel bike (4 bikes),0,0,not-load-bearing:value-required-by-gold-or-question,"Yes, before purchasing the gravel bike, you also had a road bike and a hybrid bike in addition to your mountain bike and commuter bike."
+store_both,8fb83627,current-value,0,1,3 issues,0,0,0,5 issues,0,0,,You have finished reading five issues of National Geographic.
+store_both,945e3d21,current-value,0,1,twice a week,0,0,0,three times a week,0,0,,"You attend yoga classes three times a week, which helps you clear your head and focus, especially on days when you're feeling anxious."
+store_both,9bbe84a2,lookback,0,1,level 100,1,1,0,level 150,0,0,not-load-bearing:value-required-by-gold-or-question,Your previous goal for your Apex Legends level was to reach level 100 before the end of the year.
+store_both,9ea5eabc,current-value,0,1,Hawaii,0,0,0,Paris,0,0,,You went to Paris on your most recent family trip.
+store_both,a1eacc2a,current-value,0,1,4 stories,0,0,0,7 stories,0,0,,You have written seven short stories since you started writing regularly.
+store_both,a2f3aa27,current-value,0,0,1250 followers,1,0,0,1300 followers,0,0,,"Based on your last update on 2023/05/28, you mentioned having 1250 followers on Instagram. If there have been any changes since then, you might need to check your Instagram account directly for the most current follower count."
+store_both,affe2881,current-value,0,1,27 species,0,0,0,32 species,0,0,,You have seen 32 different species of birds in your local park.
+store_both,b01defab,current-value,0,0,not finished,1,0,0,finished (yes),0,0,,"Based on the conversation history, you mentioned that you temporarily put down ""The Nightingale"" because it was getting too emotional, and you planned to pick it up again later. However, there is no indication in the provided conversation history that you finished reading ""The Nightingale."""
+store_both,b6019101,current-value,0,1,4 MCU films,0,0,0,5 MCU films,0,0,,You watched 5 MCU films in the last 3 months.
+store_both,ba61f0b9,current-value,0,1,5 women,0,0,0,6 women,0,0,,"Rachel's team consists of 10 people, with 6 of them being women."
+store_both,c4ea545c,lookback,0,0,3x/week (Tue/Thu/Sat),0,0,0,4x/week,1,0,,"Based on the conversation history, your gym routine has remained consistent at four times a week. There is no indication that you have increased the frequency of your gym visits."
+store_both,c6853660,lookback,0,1,one cup,0,1,0,two cups,0,0,,You recently increased the limit on the number of cups of coffee in the morning to two cups.
+store_both,c7dc5443,current-value,0,1,3-2 record,0,0,0,5-2 record,0,0,,Your current record in the recreational volleyball league is 5-2.
+store_both,cc5ded98,current-value,0,1,about one hour,0,0,0,about two hours,0,0,,You dedicate about two hours each day to coding exercises.
+store_both,ce6d2d27,current-value,0,1,Thursday,0,0,0,Friday,0,0,,You take a cocktail-making class on Fridays.
+store_both,cf22b7bf,current-value,0,1,5 pounds,0,0,0,10 pounds,0,0,,You mentioned that you have lost 10 pounds since you started going to the gym consistently 3 months ago.
+store_both,d7c942c3,current-value,0,1,no (paper list),0,0,0,yes (same app),0,0,,"Yes, your mom is using the same grocery list app as you now, which allows you both to easily share lists and keep track of what you need."
+store_both,dad224aa,current-value,0,1,8:30 am,0,0,0,7:30 am,0,0,,You wake up at 7:30 am on Saturday mornings.
+store_both,db467c8c,current-value,0,1,six months,0,0,0,nine months,0,0,,Your parents have been staying with you in the US for nine months.
+store_both,dfde3500,lookback,0,1,Wednesday (Juan),1,1,0,Thursday (Maria),0,0,not-load-bearing:value-required-by-gold-or-question,You met with your previous language exchange tutor Juan on Wednesday evenings.
+store_both,e493bb7c,current-value,0,1,living room,0,0,0,bedroom,0,0,,"The painting ""Ethereal Dreams"" by Emma Taylor is currently hanging above the user's bed in their bedroom."
+store_both,e61a7584,current-value,0,1,6 months,0,0,0,9 months,0,0,,"You've had your cat, Luna, for about 9 months now."
+store_both,e66b632c,lookback,0,0,27:45,0,1,0,26:30,1,0,,Your previous personal best time for the charity 5K run was 26 minutes and 30 seconds.
+store_both,eace081b,current-value,0,1,Kauai,0,0,0,Oahu,0,0,,You are planning to stay on Oahu for your birthday trip to Hawaii.
+store_both,ed4ddc30,current-value,0,0,30 dozen,1,0,0,20 dozen,0,0,,You currently have 30 dozen eggs stocked up in your refrigerator.
+store_both,f685340e,lookback,0,1,every week,1,1,0,every other week,0,0,not-load-bearing:value-required-by-gold-or-question,"Previously, you played tennis with your friends at the local park weekly. Now, you play every other week."
+store_both,f685340e_abs,lookback,1,1,every week,0,0,0,every other week,1,1,ambiguous-reverse: cites the CURRENT cadence beside a correct abstention; not 'previous information',"Based on the conversation history, you have not mentioned playing table tennis with your friends at the local park. You have mentioned playing tennis with your friends at the local park every other week."
+store_both,f9e8c073,current-value,0,0,3 sessions,1,0,0,5 sessions,0,0,,You attended three sessions of the bereavement support group.
