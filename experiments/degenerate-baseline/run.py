@@ -33,15 +33,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-ORACLE = Path(
-    "/Volumes/SSD960GB/Projects/mnemoverse/mnemoverse-core/experiments/benchmarks/"
-    "longmemeval/data/longmemeval_oracle.json"
-)
-ENV_FILES = [
-    Path("/Volumes/SSD960GB/Projects/mnemoverse/mnemoverse-core/.env"),
-    Path("/Volumes/SSD960GB/Projects/mnemoverse/mnemoverse-research-agent/.env"),
-    Path("/Volumes/SSD960GB/Projects/mnemoverse/mnemoverse-chat/services/agents/.dev.vars"),
-]
+# Paths parameterized post-run for reproducibility (2026-09-02); the grading
+# logic is unchanged from the 2026-08-16 run, which used local absolute paths.
+# LONGMEMEVAL_ORACLE must point at longmemeval_oracle.json from the official
+# LongMemEval release (https://github.com/xiaowu0162/LongMemEval).
+ORACLE = Path(os.environ.get("LONGMEMEVAL_ORACLE", HERE / "longmemeval_oracle.json"))
+# OPENAI_API_KEY is read from the environment; optionally from a .env file
+# named in ENV_FILE.
+ENV_FILES = [Path(p) for p in [os.environ.get("ENV_FILE", "")] if p]
 
 MODEL = "gpt-4o-2024-08-06"
 CONCURRENCY = 6

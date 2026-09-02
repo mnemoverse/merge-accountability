@@ -27,7 +27,12 @@ reliably use them: on question `6071bd76` it reports the two values in presentat
 contradicting the dates it was shown.
 
 Provenance note: `run.py` writes its outputs to `results/`; the committed artifacts were
-moved one level up into this directory after the run.
+moved one level up into this directory after the run. Paths in `run.py` were
+parameterized post-run (2026-09-02): the original run used local absolute paths;
+the grading logic is unchanged. The grader template is verbatim from
+`get_anscheck_prompt` in LongMemEval's `src/evaluation/evaluate_qa.py`, pinned:
+<https://github.com/xiaowu0162/LongMemEval/blob/d6dc8b50a2d9/src/evaluation/evaluate_qa.py>
+(last commit touching the file, 2024-11-24).
 
 Files: run.py (harness), answers_*.jsonl (per-question reader answers + grader verdicts),
 summary.json (config + dates), question_classes.csv (per-question class annotation with

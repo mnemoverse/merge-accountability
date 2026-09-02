@@ -1,0 +1,427 @@
+Snapshot of https://mnemoverse.com/docs/api/overview retrieved 2026-09-02 (text extraction).
+Kept for the paper's Section 5.1 citation (consolidation disclosure).
+
+Persistent Memory for AI Agents: Learns From Outcomes | Mnemoverse Docs
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+Skip to content
+Mnemoverse
+Docs
+Search
+K
+ Main Navigation 
+Get Started
+API
+Library
+Research
+Benchmarks
+Console
+Appearance
+Menu
+Return to top
+ Sidebar Navigation 
+Get Started
+Quick Start
+API Reference
+Agent Setup
+Make Agents Remember
+Rooms (beta)
+Integrations
+Claude Code
+Claude Desktop, Web & Mobile
+Editors
+Cursor
+VS Code
+Windsurf
+ChatGPT
+Python SDK
+MCP Server
+Remote MCP (OAuth)
+Use Cases
+Coding Assistants
+Universal AI Chat
+Conversational Agents
+Agent Frameworks
+Platform
+Overview
+Multi-Tenant Setup
+More
+Overview
+Pricing
+Security
+Library
+Overview
+Agent Memory
+Topic overview
+AI Agent Memory: What It Is
+What Your Agent Is Allowed to Believe
+Knowledge Graph vs Retrieval
+A2A Protocol Explained
+A2A vs MCP
+Shared Memory for Multi-Agent Systems
+The Missing Layer: Agent Memory Interop
+A2A Integration How-To (Python)
+The A2A Agent Card
+Hebbian Memory for AI Agents
+Rescorla-Wagner for Agent Memory
+Agent Memory Feedback: The Missing Signal
+Is Mnemoverse a Vector Database?
+RAG vs Agent Memory: What the Source Code Shows
+Nowhere to Put the Disagreement
+Knowledge-Graph Memory for AI Agents
+Claude's Global Workspace: Why AI Memory Lives Outside
+AI Introspection: Why a Voice Is Not an Audit
+The Jacobian Lens, Explained
+What Is an Agent OS? Six Meanings
+Best Persistent Memory APIs Compared
+Hindsight vs Graphiti
+Secrets & Trust
+Topic overview
+Why AI Agents Nag You About Secrets
+Memory Poisoning: The Patient Path to Your API Keys
+Shared Memory Poisoning: One Bad Write, Many Agents
+A Credential the LLM Never Sees
+The Trust-Model Spectrum for Agent Secrets
+Prompt Injection Is a Credential-Exfiltration Attack
+How Do Two AI Agents Trust Each Other?
+Least Privilege for AI Agents
+Memory Science
+Topic overview
+Why Agent Memory Needs Sleep
+Why Your AI Agent Repeats the Same Mistakes
+Stale Memory Is Worse Than No Memory
+Why Does Memory Have So Many Names?
+Transactive Memory: Who Remembers What in a Team
+Memory, From DRAM to Agents: One Word, Twelve Worlds
+Episodic vs Semantic Memory: Tulving for AI Agents
+Hopfield Networks & Associative Memory
+Is Attention a Hopfield Network?
+Bernard Widrow: LMS to Cognitive Memory
+Geoffrey Hinton: The Boltzmann Machine
+Jeff Hawkins: Hierarchical Temporal Memory
+Schema Formation & Memory Consolidation
+Working Memory: Capacity, Models & AI Context
+Self-Organizing Memory: ART, SOM & GNG
+Multimodal Memory: Cross-Modal Binding
+Benchmark Wars
+Topic overview
+Evaluating AI Agent Memory
+LangChain / LangSmith Evaluation
+LLM-as-a-Judge & Judge Leniency
+Judges, Good & Evil — Judge Variance
+Can You Trust an LLM Judge? A Field Manual
+AI Memory Benchmarks — Field Guide
+Hugging Face Evaluate (BLEU, ROUGE & more)
+BLEU vs ROUGE vs F1 vs SARI
+DeepEval (Pytest for LLM Evals)
+Context Builder & Orchestration
+Topic overview
+KV-Cache & Context Engineering
+What Breaks Prompt Caching
+MCP Federation in 2026
+CLAUDE.md, AGENTS.md and Cursor Rules
+AGENTS.md: What Supported Actually Means
+What Is an MCP Memory Server?
+Memory MCP: Persistent Memory for Agents
+Memory MCP Servers Compared
+Stateless MCP: Where Agent Memory Lives Now
+Context Engineering Needs a Compiler
+Context Compiler vs Orchestration
+Deterministic vs LLM Context Assembly
+Context Optimizer
+Context Budgeting
+World Representation
+Topic overview
+Is Memory Hyperbolic? What Neuroscience Shows
+Building Memory That Scales
+Hypergraph vs Hyperbolic Graph
+How AI Agents Navigate Knowledge Graphs
+The GraphRAG Tax
+Graph Memory MCP Servers Compared
+Bitemporal Memory: The Missing Axis
+Provenance: The Missing Who
+Deduplication: The Missing Error Rate
+Who Wins When Agents Disagree?
+The Independence Illusion
+Light Reading
+Topic overview
+Ontology vs Schema vs Topology
+The AI Agent Memory Crisis
+AI Memory Landscape 2026
+AI Memory Solutions Compared: Q3 2026
+Best AI Agent Memory 2026: Decision Map
+Agent Memory Is Not a Database
+Memory Is Becoming a Procurement Decision
+Workflow Intelligence Ships as a Primitive
+When AI Cites What Doesn't Exist
+Market Landscape 2025
+Research
+Overview
+SLoD (arXiv:2603.08965)
+Benchmarks
+Methodology — how we measure honestly
+LoCoMo (primary — conversational memory)
+BEAM (10M-token scale)
+HotpotQA
+MuSiQue
+LongMemEval
+Tensor-Hyperbolic Graphs
+Vision
+Manifesto
+Design Language
+Sources
+Legal
+Terms of Service
+Privacy Policy
+Cookies Policy
+Refund & Cancellation
+Free Tier & Startup Program
+On this page
+Persistent memory for AI agents 
+​
+Mnemoverse is a persistent memory API for AI agents: statistical learning, not vector search.
+Sign up free at console.mnemoverse.com
+ — no credit card, 1K queries/day.
+3 Lines of Python 
+​
+python
+from
+ mnemoverse 
+import
+ MnemoClient
+client 
+=
+ MnemoClient(
+api_key
+=
+"mk_..."
+)
+# Store a memory
+client.write(
+"Retry with exponential backoff fixed the timeout issue"
+,
+             concepts
+=
+[
+"retry"
+, 
+"backoff"
+, 
+"timeout"
+])
+# Query — Hebbian associations expand "timeout" → "backoff", "retry"
+results 
+=
+ client.read(
+"how to handle timeouts?"
+)
+# Report outcome — system learns what works
+client.feedback(
+atom_ids
+=
+[r.atom_id 
+for
+ r 
+in
+ results.items], 
+outcome
+=
+1.0
+)
+Not a Vector Database 
+​
+Mnemoverse
+Pinecone / Weaviate / Chroma
+Core model
+Hebbian associations + prediction-error feedback (Rescorla-Wagner-style)
+Vector embeddings (cosine similarity)
+Learns from outcomes
+Yes — feedback loop updates valence
+No — static retrieval
+Concept associations
+Three-factor Hebbian graph
+None
+Memory compression
+Available in the engine, deliberately off on the hosted service
+Retention is application-managed (TTL or explicit deletes)
+Query expansion
+Automatic via learned associations
+Manual or none
+Starting price
+Free (1K queries/day)
+$25-70/mo
+We don't just store and retrieve. We 
+learn which memories matter
+.
+How It Works 
+​
+text
+1. WRITE  →  Importance gate filters noise  →  Stored with semantic embedding
+2. READ   →  Hebbian expansion  →  Valence-boosted ranking  →  Recency boost  →  Results
+3. FEEDBACK  →  Outcome updates valence  →  Strengthens associations
+4. CONSOLIDATE  →  HDBSCAN clusters similar  →  Prototypes + singletons
+Memories that lead to good outcomes rank higher in future queries. Memories that consistently fail get suppressed. The system improves with use.
+Pricing 
+​
+Free
+Pro
+Team
+Price
+$0/mo
+$29/mo
+$149/mo
+Queries/day
+1,000
+50,000
+500,000
+Atoms (memories)
+10,000
+500,000
+5,000,000
+Rate limit
+60/min
+600/min
+3,000/min
+API keys
+1
+Unlimited
+Unlimited
+Support
+Community
+Email
+Slack
+Built on Research 
+​
+Published
+: 
+SLoD framework on arXiv
+ (Semantic Level of Detail)
+Benchmarked
+: evaluated on LoCoMo (1,986 questions) and LongMemEval — see 
+Benchmarks
+ for the current numbers
+Validated
+: experiments across game-playing agents and academic benchmarks
+Common questions 
+​
+What is persistent memory for AI agents? 
+​
+Persistent memory lets an AI agent store facts, preferences, and decisions once and recall them in later sessions, instead of starting cold every time. Mnemoverse is a hosted persistent-memory API: you write a memory through one key, and any connected tool — Claude, Cursor, VS Code, ChatGPT, or a Python script — can read it back later.
+How do AI agents get persistent memory? 
+​
+Connect Mnemoverse and the agent gains six core memory tools: 
+memory_write
+, 
+memory_read
+, 
+memory_feedback
+, and three management tools. The agent calls 
+memory_write
+ to save a durable fact and 
+memory_read
+ to recall it on a later turn or in a new session. You get an API key (
+mk_live_...
+) free at 
+console.mnemoverse.com
+ — no credit card, 1,000 queries/day. See 
+Getting Started
+ for the first call, and 
+Make Your Agent Use Memory
+ for getting the agent to actually call the tools. Memory can also be shared across separate accounts through a 
+room
+ (Beta), instead of staying private to a single key.
+How is persistent memory different from vector search? 
+​
+A vector database does static similarity retrieval: you store embeddings and get back the nearest matches, the same way every time. Mnemoverse adds a learning layer on top of retrieval — Hebbian associations expand a query to related concepts, and a prediction-error feedback signal (Rescorla-Wagner-style) updates each memory's valence so memories that led to good outcomes rank higher next time. Retrieval is the floor, not the whole system. See 
+Not a Vector Database
+ above for the side-by-side.
+Does the memory learn over time? 
+​
+Yes. After a recalled memory helps or misleads, the agent calls 
+memory_feedback
+; that outcome updates the memory's valence, so useful memories surface faster and consistently unhelpful ones get suppressed. Memories are kept rather than compressed away: consolidation exists in the engine but is switched off on the hosted service, because it has never once completed in production and a prototype competes with its own sources for the same result slots.
+Next Steps 
+​
+Getting Started
+ — First API call in 2 minutes
+API Reference
+ — Full endpoint documentation
+Python SDK
+ — 
+pip install mnemoverse
+MCP Server
+ — Persistent memory for Claude and Cursor
+Remote MCP connector
+ — one-click OAuth connect (
+https://mcp.mnemoverse.com/mcp
+), no API key
+Rooms
+ — Share a memory pool across accounts (Beta); see 
+how an agent joins one
+Security
+ — Tenant isolation, data privacy, compliance
+Pager
+Previous page
+Multi-Tenant Setup
+Next page
+Pricing
+ © 2026 
+Mnemoverse
+. All rights reserved. 
+Remote MCP
+Support
+Privacy
+Terms
+Cookies
